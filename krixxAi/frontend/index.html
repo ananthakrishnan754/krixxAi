@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon AI Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>NEON<span class="blink">_</span>AI</h1>
+            <p class="subtitle">// Gemini-powered conversational interface</p>
+        </header>
+
+        <!-- AdSense placeholder -->
+        <div class="ad-container">
+            <!-- AdSense script will go here -->
+            <p class="ad-placeholder">Advertisement</p>
+        </div>
+
+        <div class="chat-container">
+            <div id="chat-history" class="chat-history">
+                <div class="message ai-message">
+                    <div class="message-content">
+                        <p>SYSTEM INITIALIZED. READY FOR USER INPUT.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Type your query here..." 
+                    autocomplete="off"
+                >
+                <button id="send-button">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
